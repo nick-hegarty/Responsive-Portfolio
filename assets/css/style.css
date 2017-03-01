@@ -1,0 +1,318 @@
+body{
+	max-width:2000px;
+}
+ h1{
+    float: left;
+    margin-left: 60px;
+    padding: 27px 20px;
+    background: rgb(238, 235, 220);
+    text-align: center;
+    font-size: 45px;
+    letter-spacing:3px;
+ }
+nav{
+	float:right;
+	margin-right:30px;
+	padding:40px 20px;
+	font-size:27px;
+	text-align:right;
+	text-decoration: none;
+	margin-top:5px;
+	letter-spacing:1px;
+
+}
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a{
+	display:inline;
+	text-decoration: none;
+	padding: 20px 0;
+	color:rgb(238,235,220);
+}
+
+nav ul li a:hover{
+	border-bottom: 2px solid rgb(238,235,220);
+}
+
+nav ul li a.active{
+	border-bottom:3px solid rgb(238,235,220);
+}
+
+li{
+	display:inline;
+	clear:both;
+	font: comic;
+	text-transform: none;
+	margin:5px;
+}
+header{
+	width:100%;
+	height: 100px;
+	margin-top:-10px;
+	background-color:rgb(74, 99, 118);
+	border-bottom: solid;
+	border-bottom-color:black;
+	border-bottom-size:10px;
+
+}
+
+footer{
+	width:100%;
+	height:40px;
+	text-align:center;
+	background-color:rgb(74, 99, 118);
+	position:absolute;
+	bottom:0;
+	border-top:solid;
+	border-top-color:black;
+	padding-top:10px;
+	margin-bottom:-10px;
+	height:10%;
+	font-size:12px;
+	letter-spacing:1px;
+}
+
+body{
+	background-image: url(../images/dmitrii-bogdanov-93092.jpg);
+	background-size: cover;
+}
+
+h2{
+	text-align:left;
+	font-size: 32px;
+}
+
+h3{
+	height: 40px;
+    font-size: 22px;
+}
+
+p {
+    width: 100%; 
+    word-break: keep-all;
+    margin:0 0 10px;
+    text-indent:50px;
+}
+
+#content{
+	float: left;
+	width: 60%;
+	background-color: rgb(199,202,185);
+	line-height:22px;
+	height:75%;
+	padding:20px;
+}
+
+
+.contact-info {
+    float: right;
+    margin-right: 10px;
+    background-color:rgb(136,163,177);
+    width: 28%;
+    padding-top: 0;
+    margin-left:20px;
+    margin-top:20px;
+    text-align:center;
+    text-transform: capitalize;
+
+}
+
+.wrapper{
+	margin-left: 10px;
+	width:70%;
+	padding-top: 10px;
+	margin: 25px auto 0 auto;
+	overflow: auto;	
+}
+
+#bear-pic{
+	float:left;
+	margin-right:20px;
+	border: 1px solid;
+	padding:2px;
+}
+
+.navigation{
+	text-transform: none;
+	background-color:rgb(74, 99, 118);
+	height:100%;
+}
+
+.contact-info ul li a{
+	display:block;
+	height:50px;
+	width:50px;
+	text-indent: -999999em;
+}
+
+.contact-info ul li{
+	display:inline-block;
+}
+
+a.email{
+	background-color:#4285f4;
+}
+
+a.github{
+	background-color:#6cc644;
+}
+
+a.linkedin{
+	background-color:#0077b5;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-style: georgia;
+}
+
+textarea{
+	width:90%;
+	height:140px;
+}
+
+input{
+	height:20px;
+	width: 200px;
+}
+
+.row{
+	position:relative;
+}
+
+.portfolio-links li{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.portfolio-links li img{
+	width: 100%;
+	height: auto;
+	margin:20px;
+}
+
+.portfolio-footer{
+	position:relative;
+	height:60px;
+}
+@media screen and (max-width: 980px){
+	body{
+		display:block;
+	}
+	#content{
+		float:none;
+		width:70%;
+		height:60%;
+	}
+	.contact-info{
+		float:none;
+		width:100%;
+		display:block;
+		height:20%;
+	}
+	header{
+		position:fixed;
+		top:0px;
+	}
+	footer{
+		position:fixed;
+		bottom:0px;
+		height:5px;
+	}
+
+	.wrapper{
+		margin:0 auto;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	body{
+		margin:0 auto;
+		background-color: rgb(0,204,255);
+		background-image:none;
+		float:none;
+		padding:0 0;
+		height:730;
+	}
+	#content{
+		float:none;
+		width:70%;
+		height:49%;
+	}
+	.contact-info{
+		float:none;
+		width:100%;
+		height:20%;
+	}
+	header{
+		position:fixed;
+		top:0px;
+		height:1px;
+	}
+	footer{
+		position:fixed;
+		bottom:0px;
+		height:30px;
+	}
+	.navigation{
+		display:block;
+		margin:0 auto;
+		padding:1px 1px;
+		width:100%;
+	}
+	h1{
+		font-size:28px;
+		padding:10px 10px;
+		margin:0 auto;
+		float:none;
+	}
+	nav ul li a{
+
+		font-size:14px;
+		float:none;
+		margin: 0 auto;
+
+	}
+
+	nav{
+		position:absolute;
+		text-align:center;
+		width: 100%;
+		top:0;
+	}
+
+	.wrapper{
+		height:40%;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+
+	header{
+		position:fixed;
+		top:0px;
+	}
+	footer{
+		position:fixed;
+		bottom:0px;
+	}
+
+
+	body{
+		background-image:none;
+		background-color: rgb(0,204,255);
+	}
+	
+	.navigation{
+		padding: 1px 1px;
+	}
+}
+
